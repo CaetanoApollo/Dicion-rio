@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/book.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Words - Dictionary</title>
+</head>
+
+<body id="body">
+    <header>
+        <h1>Caetano Apollo</h1>
+    </header>
+
+    <main>
+        <section id="tudo">
+            <h2 class="title-default">Palavras</h2>
+
+            <div class="colunas">
+                <div class="coluna">
+                    <div class="palavra">
+                        <button type="button" class="modalBtn" id="adept"><b>Adept</b></button>
+                    </div>
+                    <div class="palavra">
+                        <button type="button" class="modalBtn" id="about"><b>About</b></button>
+                    </div>
+                    <div class="palavra">
+                        <button type="button" class="modalBtn" id="sycophant"><b>Sycophant</b></button>
+                    </div>
+                    <div class="palavra">
+                        <button type="button" class="modalBtn" id="disheveled"><b>Disheveled</b></button>
+                    </div>
+                    <div class="palavra">
+                        <button type="button" class="modalBtn" id="grief"><b>Grief</b></button>
+                    </div>
+                </div>
+
+                <div class="coluna">
+                    <div class="palavra">
+                        <button type="button" class="modalBtn" id="comprehensive"><b>Comprehensive</b></button>
+                    </div>
+                    <div class="palavra">
+                        <button type="button" class="modalBtn" id="moderate"><b>Moderate</b></button>
+                    </div>
+                    <div class="palavra">
+                        <button type="button" class="modalBtn" id="understandable"><b>Understandable</b></button>
+                    </div>
+                    <div class="palavra">
+                        <button type="button" class="modalBtn" id="widespread"><b>Widespread</b></button>
+                    </div>
+                    <div class="palavra">
+                        <button type="button" class="modalBtn" id="clarify"><b>Clarify</b></button>
+                    </div>
+                </div>
+            </div>
+
+            <span id="modal">
+                <button class="close" id="fechar-modal">&times;</button>
+                <div class="content">
+                    <div class="ingles">
+                        <div class="audio">
+                            <h2 class="palavra-ingles"></h2>
+                            <i class="bi bi-volume-up" id="elementoIng"></i>
+
+                            <audio id="audioIngles" src=""></audio>
+                        </div>
+                        <p class="descricao"></p>
+                    </div>
+
+                    <div class="portugues">
+                        <div class="audio">
+                            <h2 class="palavra-portugues"></h2>
+                            <i class="bi bi-volume-up" id="elementoPt"></i>
+
+                            <audio id="audioPort" src=""></audio>
+                        </div>
+                        <p class="descricaoPort"></p>
+                    </div>
+                </div>
+            </span>
+
+            <div id="sobreposicao"></div>
+        </section>
+
+        <div class="title-exemplo">
+            <h2 class="title-default">Conto</h2>
+        </div>
+
+        <section class="conto">
+                <h2 class="title-default">Sombras do Desespero: O Pacto Desfeito de Vale Sombrio</h2>
+
+                <p class="texto">Em uma noite desalinhada, envolta em uma escuridão <b>abrangente</b>, o vilarejo de Vale Sombrio guardava segredos sombrios. Na praça central, um casarão deserto se erguia, conhecido como a Mansão Enigmática. Os moradores evitavam a área, pois rumores de uma presença sinistra pairavam no ar.</p>
+
+                <p class="texto">Naquele lugar, vivia um estranho indivíduo chamado Horácio, um <b>adepto</b> das artes ocultas. Seu semblante <b>desalinhado</b> e suas vestes surradas refletiam sua obsessão pelo desconhecido. Horácio era conhecido por seu dom de manipular a <b>dor</b>, mergulhando nas profundezas do oculto para alcançar poderes além da compreensão humana. Seus métodos, no entanto, eram <b>moderados</b> apenas aos olhos dele. Para os habitantes do Vale Sombrio, eram práticas perturbadoras. O rumor se espalhou como uma <b>dor generalizada</b>, uma sensação de inquietação que pairava sobre o vilarejo.
+                </p>
+
+                <p class="texto">Um <b>bajulador</b> local, chamado Lúcio, buscava o favor de Horácio. Ele acreditava que ao se aliar ao <b>adepto</b> das sombras, poderia obter benefícios inimagináveis. No entanto, sua lealdade cega o conduziu por um caminho tenebroso.
+                </p>
+
+                <p class="texto">Uma noite, durante um ritual sombrio, Horácio revelou a Lúcio a verdade por trás de seus poderes. A <b>dor</b> que manipulava não era apenas física, mas uma entidade espectral que se alimentava da angústia alheia. A <b>compreensível</b> ganância de Lúcio tornou-se o combustível para o ritual, liberando uma onda de sofrimento sobre o vilarejo. A <b>dor</b>, agora, era <b>generalizada</b>, afetando todos os habitantes de Vale Sombrio. O desespero pairava no ar, e o vilarejo mergulhou em uma escuridão mais profunda do que nunca. Lúcio, antes um <b>bajulador</b> ávido por poder, agora percebia o terrível preço que havia pago por sua ambição desmedida.</p>
+
+                <p class="texto">Desesperado por redenção, Lúcio buscou entender a natureza do mal que havia desencadeado. Em uma jornada para <b>esclarecer</b> os mistérios da Mansão Enigmática, ele descobriu que a única maneira de dissipar a <b>dor</b> era desfazer o ritual sombrio.
+                </p>
+
+                <p class="texto">Cada passo em direção à verdade era um enfrentamento com horrores indescritíveis. Enfrentando criaturas das sombras e desvendando enigmas antigos, Lúcio chegou ao ápice de seu desafio na sala central da mansão. Lá, diante de um altar macabro, ele enfrentou Horácio em uma batalha de vontades.</p>
+
+                <p class="texto">Com um esforço hercúleo, Lúcio conseguiu reverter o ritual, absorvendo a <b>dor</b> que havia liberado sobre o vilarejo. Horácio, privado de seu poder, desapareceu na escuridão que o consumira. A mansão, agora livre da aura sombria, desapareceu nas sombras da noite. Vale Sombrio, liberta da <b>dor</b> <b>generalizada</b>, começou a se curar lentamente. Lúcio, marcado pela experiência, tornou-se um guardião do vilarejo, jurando proteger seus habitantes de forças ocultas.
+                </p>
+                
+                <p class="texto">A história de Vale Sombrio tornou-se um conto aterrorizante, um lembrete de que o poder descontrolado pode desencadear horrores inimagináveis. O vilarejo, antes envolto em mistério, agora permanece como um lugar de cautela, onde as sombras espreitam e a dor pode despertar a qualquer momento.
+                </p>
+
+                <p class="texto">A história de Vale Sombrio não termina aqui. Lúcio, agora um guardião, passou a viver na Mansão Enigmática, o lugar que uma vez foi o epicentro do mal. Ele transformou a mansão em um santuário, um lugar de cura e aprendizado. Lúcio dedicou sua vida a estudar as artes ocultas, não para manipular a <b>dor</b>, mas para entender e combater as forças sombrias.
+                </p>
+
+                <p class="texto">Os habitantes do vilarejo, inicialmente receosos, começaram a ver Lúcio sob uma nova luz. Ele se tornou um símbolo de esperança e resistência, um farol na escuridão. Lúcio oferecia sua sabedoria e proteção a todos, ensinando-os a se protegerem das forças ocultas.
+                </p>
+
+                <p class="texto">No entanto, a paz em Vale Sombrio era frágil. A <b>dor</b> que Lúcio havia absorvido começou a se manifestar de maneiras estranhas. Ele sentia uma presença espectral, uma sombra de Horácio, espreitando nas profundezas da mansão. Lúcio sabia que a batalha contra as trevas estava longe de terminar.
+                </p>
+
+                <p class="texto">Em uma noite tempestuosa, a presença sinistra finalmente se revelou. Era uma manifestação da <b>dor</b> que Lúcio havia absorvido, uma entidade espectral faminta por angústia. Lúcio, armado com seu conhecimento e determinação, enfrentou a entidade em uma batalha épica.
+                </p>
+
+                <p class="texto">A luta foi intensa, mas Lúcio emergiu vitorioso. Ele conseguiu aprisionar a entidade em um amuleto, selando sua influência maligna. A vitória de Lúcio trouxe uma nova era de paz para o Vale Sombrio. A mansão, uma vez temida, agora era vista como um santuário de proteção.
+                </p>
+
+                <p class="texto">Lúcio continuou sua vigília, protegendo Vale Sombrio de qualquer mal que pudesse surgir. A história de sua coragem e sacrifício se espalhou por terras distantes, transformando Vale Sombrio em um símbolo de resistência contra as forças das trevas.
+                </p>
+
+                <p class="texto">No entanto, Lúcio sabia que a paz era apenas temporária. Enquanto houvesse <b>dor</b> e sofrimento no mundo, sempre haveria forças buscando se alimentar dela. Mas enquanto Lúcio estivesse de guarda, Vale Sombrio estaria seguro. E assim, a lenda de Vale Sombrio continua, uma história de coragem contra as trevas, um conto de um guardião e seu eterno vigia contra o mal.
+                </p>
+        </section>
+
+        <div class="title-exemplo">
+            <h2 class="title-default">Frases</h2>
+        </div>
+
+        <section class="frases">
+            <p class="frase">Adept: She proved herself to be an adept pianist, effortlessly playing intricate melodies with grace and precision.</p>
+
+            <p class="frase">About: Let's talk about the upcoming project and gather everyone's thoughts about the proposed changes.</p>
+
+            <p class="frase">Sycophant: He was known for being a sycophant, always flattering those in power in the hope of gaining favor.</p>
+
+            <p class="frase">Disheveled: After hours of working in the garden, her appearance was disheveled, with dirt-streaked clothes and tousled hair.</p>
+
+            <p class="frase">Grief: In the quiet room, the weight of grief hung heavily as friends gathered to console one another after the loss.</p>
+
+            <p class="frase">Comprehensive: The comprehensive report covered all aspects of the research, leaving no question unanswered.</p>
+
+            <p class="frase">Moderate: Striking a moderate balance, he advocated for policies that addressed concerns from both sides of the debate.</p>
+
+            <p class="frase">Understandable: Given the complexity of the topic, her confusion was entirely understandable, and she sought clarification.</p>
+
+            <p class="frase">Widespread: The news of the breakthrough spread like wildfire, generating widespread excitement within the scientific community.</p>
+
+            <p class="frase final">Clarify: Please clarify your statement so that everyone can have a clear understanding of your intentions.</p>
+        </section>
+
+        
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>
